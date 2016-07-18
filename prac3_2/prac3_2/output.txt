@@ -1,0 +1,16 @@
+queue: 12345
+
+get: 1
+queue: 2345
+
+get: 2
+queue: 345
+
+get: 3
+queue: 45
+
+get: 4
+queue: 5
+
+get: 5
+queue: empty queue!

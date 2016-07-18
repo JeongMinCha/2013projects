@@ -1,0 +1,14 @@
+﻿Build started 2013-05-18 오후 5:26:18.
+     1>Project "Y:\Dropbox\Projects\DLinkedList\DLinkedList\DLinkedList.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\DLinkedList.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt DLinkedList.c DLinkedListMain.c
+         DLinkedListMain.c
+     1>y:\dropbox\projects\dlinkedlist\dlinkedlist\dlinkedlistmain.c(54): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         DLinkedList.c
+     1>y:\dropbox\projects\dlinkedlist\dlinkedlist\dlinkedlist.c(97): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "stdafx.h"' to your source?
+         Generating Code...
+     1>Done Building Project "Y:\Dropbox\Projects\DLinkedList\DLinkedList\DLinkedList.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.20

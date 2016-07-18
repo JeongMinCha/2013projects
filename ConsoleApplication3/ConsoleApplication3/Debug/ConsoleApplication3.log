@@ -1,0 +1,16 @@
+﻿Build started 2013-05-13 오후 11:49:12.
+     1>Project "Z:\Users\Retina\Dropbox\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt Practice7.c
+         Practice7.c
+     1>z:\users\retina\dropbox\projects\consoleapplication3\consoleapplication3\practice7.c(117): warning C4566: character represented by universal-character-name '\u2014' cannot be represented in the current code page (949)
+     1>z:\users\retina\dropbox\projects\consoleapplication3\consoleapplication3\practice7.c(157): warning C4566: character represented by universal-character-name '\u2014' cannot be represented in the current code page (949)
+     1>z:\users\retina\dropbox\projects\consoleapplication3\consoleapplication3\practice7.c(169): warning C4566: character represented by universal-character-name '\u2014' cannot be represented in the current code page (949)
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Users\Retina\Dropbox\Projects\ConsoleApplication3\Debug\ConsoleApplication3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\Users\Retina\Dropbox\Projects\ConsoleApplication3\Debug\ConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Users\Retina\Dropbox\Projects\ConsoleApplication3\Debug\ConsoleApplication3.lib" /MACHINE:X86 Debug\Practice7.obj
+         ConsoleApplication3.vcxproj -> Z:\Users\Retina\Dropbox\Projects\ConsoleApplication3\Debug\ConsoleApplication3.exe
+     1>Done Building Project "Z:\Users\Retina\Dropbox\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.57

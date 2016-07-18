@@ -1,0 +1,25 @@
+﻿Build started 2013-05-24 오전 3:48:42.
+     1>Project "Y:\Dropbox\Projects\ListBaseStack\ListBaseStack\ListBaseStack.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ListBaseStack.c ListBaseStackMain.c
+         ListBaseStackMain.c
+         ListBaseStack.c
+     1>y:\dropbox\projects\listbasestack\listbasestack\listbasestack.c(29): warning C4029: declared formal parameter list different from definition
+         Generating Code...
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ListBaseStack.h
+         ListBaseStack.h
+       Link:
+         C:\Program Files\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Y:\Dropbox\Projects\ListBaseStack\Debug\ListBaseStack.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Y:\Dropbox\Projects\ListBaseStack\Debug\ListBaseStack.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Y:\Dropbox\Projects\ListBaseStack\Debug\ListBaseStack.lib" /MACHINE:X86 Debug\ListBaseStack.obj
+         Debug\ListBaseStack.obj
+         Debug\ListBaseStackMain.obj
+     1>Debug\ListBaseStack.obj : warning LNK4042: object specified more than once; extras ignored
+     1>ListBaseStackMain.obj : error LNK2019: unresolved external symbol _StackInit referenced in function _main
+     1>ListBaseStackMain.obj : error LNK2019: unresolved external symbol _SIsEmpty referenced in function _main
+     1>ListBaseStackMain.obj : error LNK2019: unresolved external symbol _SPush referenced in function _main
+     1>ListBaseStackMain.obj : error LNK2019: unresolved external symbol _SPop referenced in function _main
+     1>Y:\Dropbox\Projects\ListBaseStack\Debug\ListBaseStack.exe : fatal error LNK1120: 4 unresolved externals
+     1>Done Building Project "Y:\Dropbox\Projects\ListBaseStack\ListBaseStack\ListBaseStack.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.09
